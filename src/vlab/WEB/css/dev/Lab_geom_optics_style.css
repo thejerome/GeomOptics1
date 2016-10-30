@@ -1,0 +1,141 @@
+#jsLab {
+	text-align: left;
+}
+
+#jsLab #content {
+	float: left;
+	margin: 0;
+	padding: 0;
+	margin-right: 10px;
+	font-family: Arial;
+	font-size: 16px;
+	cursor: crosshair;
+	overflow: hidden;
+    border: 1px solid #333;
+}
+
+#jsLab .main {
+	width: 335px;
+	height: 50px;
+}
+
+#jsLab .subsidiary {
+	width: 160px;
+	height: 50px;
+}
+
+#jsLab .cancel {
+	width: 160px;
+	height: 60px;
+}
+
+#jsLab .packet {
+	width: 335px;
+	height: 50px;
+}
+
+#jsLab .buttonsBlock {
+}
+
+#jsLab .comments {
+	margin-top: 15px;
+	float: left;
+	overflow: auto;
+	width: 325px;
+	height: 505px !important;
+	padding: 5px;
+	margin-bottom: 20px;
+	border: 1px solid #333;
+	color: #FF0000;
+}
+
+#jsLab .main, .subsidiary, .cancel {
+	text-align: center;
+	margin-right: 10px;
+	margin-top: 10px;
+	padding: 0 0 2px;
+	font: 16px "Trebuchet MS", Tahoma, Arial, sans-serif;
+	outline: none;
+	position: relative;
+	cursor: pointer;
+	border-radius: 3px;
+	color: #555;
+	border: 1px solid #BBB;
+	border-top: 1px solid #D0D0D0;
+	border-bottom: 1px solid #A5A5A5;
+	text-shadow: 1px 1px #FAFAFA;
+	box-shadow:
+		inset 0 1px #F5F5F5,
+		inset 1px 0 #EDEDED,
+		inset -1px 0 #EDEDED,
+		inset 0 -1px #E7E7E7,
+		0 2px #B2B1B1,
+		0 3px #A5A5A5,
+		0 4px 2px rgba(0,0,0,0.4)
+	;
+	background: -moz-linear-gradient(top,  #eeeeee 0%, #e2e2e2 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(100%,#e2e2e2)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #eeeeee 0%,#e2e2e2 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #eeeeee 0%,#e2e2e2 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #eeeeee 0%,#e2e2e2 100%); /* IE10+ */
+	background: linear-gradient(top,  #eeeeee 0%,#e2e2e2 100%); /* W3C */
+	background-color: #E8E8E8;
+}
+
+#jsLab .main:hover, .subsidiary:hover, .cancel:hover {
+	border-top: 1px solid #C2C2C2;
+	box-shadow:
+		inset 0 1px #EFEFEF,
+		inset 1px 0 #EDEDED,
+		inset -1px 0 #EDEDED,
+		inset 0 -1px #EDEDED,
+		0 2px #B2B1B1,
+		0 3px #A5A5A5,
+		0 4px 2px rgba(0,0,0,0.4)
+	;
+	background: -moz-linear-gradient(top,  #e4e4e4 0%, #e9e9e9 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e4e4e4), color-stop(100%,#e9e9e9)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #e4e4e4 0%,#e9e9e9 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #e4e4e4 0%,#e9e9e9 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #e4e4e4 0%,#e9e9e9 100%); /* IE10+ */
+	background: linear-gradient(top,  #e4e4e4 0%,#e9e9e9 100%); /* W3C */
+	background-color: #E8E8E8;
+}
+
+.main:active, .subsidiary:active, .cancel:active {
+	top: 3px;
+	border: 1px solid #B9B9B9;
+	border-top: 1px solid #959595;
+	border-bottom: 1px solid #CACACA;
+	background: #E3E3E3;
+	box-shadow: inset 0 1px 2px #B9B9B9;
+}
+
+#jsLab .mainEnabled {
+	width: 335px;
+}
+
+#jsLab .subsidiaryEnabled {
+	width: 160px;
+}
+
+#jsLab .mainEnabled, .subsidiaryEnabled {
+	margin-right: 10px;
+	margin-top: 10px;
+	height: 50px;
+	padding: 0 0 2px;
+	font: 16px "Trebuchet MS", Tahoma, Arial, sans-serif;
+	outline: none;
+	position: relative;
+	cursor: pointer;
+	border-radius: 3px;
+	color: #555;
+	text-shadow: 1px 1px #FAFAFA;
+	background-color: #E8E8E8;
+	top: 3px;
+	border: 1px solid #B9B9B9;
+	border-top: 1px solid #959595;
+	border-bottom: 1px solid #CACACA;
+	background: #E3E3E3;
+	box-shadow: inset 0 1px 2px #B9B9B9;
+}
